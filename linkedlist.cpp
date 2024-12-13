@@ -8,7 +8,6 @@ void traversal(struct Node *ptr) {
 	while(ptr!=NULL) {
 		printf(" %d\t",ptr->data);
 		ptr=ptr->next;
-		
 	}
 	printf("\n");
 }
@@ -91,7 +90,6 @@ int main() {
 		printf("5.deleteAtEnd\n");
 		printf("6.Traversal\n");
 		printf("7.Exit\n");
-		printf("8.insertatindex\n");
 		
 		printf("Enter choice : ");
 		scanf("%d",&choice);
@@ -124,16 +122,8 @@ int main() {
 			case 7:
 				exit(0);
 				break;
-			case 8:
-				int pos;
-				printf("Enter value to insert : ");
-				scanf("%d",&value);
-				printf("Enter position to insert : ");
-				scanf("%d",&pos);
-				head=insertatindex(head,value,pos);
-				break;
-				
 		}
 		
 	}
 }
+explain the code above
